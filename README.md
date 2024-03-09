@@ -1,5 +1,5 @@
 # Focal_Cortical_Dysplasia_segmentation
-Focal Cortical Dysplasia (FCD) is an abnormal neurological condition seen in the brain structure of epileptic people. The segmentation is done using a U-Net architecture. This project shows the abnormal part of the brain by comparing it with the lesion mask. This project may help in presurgical analysis in epileptic people, since type II FCD are too difficult to find out.  This project has attained an accuracy of 99.97%.
+Focal Cortical Dysplasia (FCD) is an abnormal neurological condition seen in the brain structure of epileptic people. The segmentation is done using a U-Net architecture and Classification is done with the help of Attention network model in 3D CNN architecture. This project shows the abnormal part of the brain by comparing it with the lesion mask. Apart from segmentation, it also identify whether a persons MRI has the condition of FCD or not This project may help in presurgical analysis in epileptic people, since type II FCD are too difficult to find out.  This project has attained segmentation accuracy of 99.97% and classification accuracy of 100%.
 
 The dataset used in this project are validated by the Ethics Committee of the University of Bonn, and are taken from OpenNeuro website.
 
